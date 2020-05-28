@@ -1,0 +1,2 @@
+rootProject.name='MathQuizzer'
+include ':app'
