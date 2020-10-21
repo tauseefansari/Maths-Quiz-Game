@@ -56,7 +56,6 @@ public class MainActivity extends AppCompatActivity {
             tv_questions.setVisibility(View.INVISIBLE);
             tv_score.setVisibility(View.INVISIBLE);
             retry.setVisibility(View.VISIBLE);
-            layout.setBackgroundColor(Color.BLUE);
             if(m_Text.matches(""))
                 m_Text="Guest";
             gameOver.setText("Game Over\n\n"+m_Text+"\nYour Score\n"+tv_score.getText());
